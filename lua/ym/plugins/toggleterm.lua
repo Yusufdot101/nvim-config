@@ -23,7 +23,7 @@ return {
 
 			-- Use count + <C-t> to toggle terminal 1-9
 			-- Just <C-t> = smart toggle
-			vim.keymap.set("n", "<C-t>", function()
+			vim.keymap.set("n", "<leader>t", function()
 				local count = vim.v.count
 				if count > 0 and count <= 9 then
 					terminals[count]:toggle()
