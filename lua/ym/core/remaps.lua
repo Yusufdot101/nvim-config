@@ -3,6 +3,11 @@ local opts = { noremap = true, silent = true }
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.keymap.set("n", "<C-Left>", "<C-w><") -- shrink vertically
+vim.keymap.set("n", "<C-Right>", "<C-w>>") -- grow vertically
+vim.keymap.set("n", "<C-Up>", "<C-w>+") -- grow horizontally
+vim.keymap.set("n", "<C-Down>", "<C-w>-") -- shrink horizontally
+
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "moves lines down in visual selection" })
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "moves lines up in visual selection" })
 
