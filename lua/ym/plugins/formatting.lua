@@ -29,7 +29,7 @@ return {
 				typescript = { "biome-check" },
 				javascriptreact = { "biome-check" },
 				typescriptreact = { "biome-check" },
-				css = { "biome-check" },
+				css = { "biome" },
 				html = { "biome-check" },
 				svelte = { "prettier" },
 				json = { "prettier" },

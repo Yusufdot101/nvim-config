@@ -1,4 +1,5 @@
-return {
+return {}
+--[[
   "rmagatti/auto-session",
   lazy = false,
 
@@ -10,3 +11,4 @@ return {
     -- log_level = 'debug',
   },
 }
+--]]

@@ -28,7 +28,5 @@ require("lazy").setup({
 		{ import = "ym.plugins" },
 		{ import = "ym.plugins.lsp" },
 	},
-	ui = {
-		reset_on_reload = false, -- disables the "Press ENTER" prompt on reload
-	},
+	change_detection = { enabled = false },
 })

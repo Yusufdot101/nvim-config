@@ -15,7 +15,7 @@ return {
 		end, { desc = "Harpoon menu" })
 
 		-- Quick nav
-		vim.keymap.set("n", "<C-o>", function()
+		vim.keymap.set("n", "<C-a>", function()
 			harpoon:list():select(1)
 		end)
 		vim.keymap.set("n", "<C-t>", function()
